@@ -1,0 +1,34 @@
+$(document).ready(function(){
+$('#go').click(function() {
+
+//build a function that checks which car has won the race
+function checkIfComplete() {
+ 
+  if(isComplete == false ) {
+  isComplete = true;
+  }
+  else {
+  place = "second';
+  }
+  }
+  //get the width of the cars
+  var carWidth = $('#car1).width();
+  
+  //get the width of the race track
+  var raceTrackWidth = $(window).width()-carWidth;
+  
+  //generate a random no b/w 1 and 5000
+  var raceTime1 = Math.floor( (Math.random()*5000) + 1);
+  var raceTime2 = Math.floor( (Math.random()*5000) + 1);
+  
+  //set a flag variable to false by default
+  var isComplete = false;
+  //animate car1
+  $('#car1').animate({
+  //move the car width of raceTrackWidth
+  
+  
+
+
+
+});
